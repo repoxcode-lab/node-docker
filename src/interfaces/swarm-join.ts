@@ -1,0 +1,7 @@
+export interface DockerSwarmJoinBody {
+  ListenAddr    : string;
+  AdvertiseAddr : string;
+  DataPathAddr  : string;
+  RemoteAddrs   : string[];
+  JoinToken     : string;
+}

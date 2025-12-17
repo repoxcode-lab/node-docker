@@ -1,0 +1,46 @@
+{
+  "name": "@repoxcode/docker",
+  "version": "1.0.0",
+  "description": "Docker SDK to connect with Docker engine",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repoxcodehub/node-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "SDK",
+    "docker",
+    "engine"
+  ],
+  "author": "catur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/repoxcodehub/node-docker/issues"
+  },
+  "homepage": "https://github.com/repoxcodehub/node-docker#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jest": "^29.5.0",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.50.0"
+  }
+}
